@@ -1,0 +1,17 @@
+
+from Lista import CircularList
+l = CircularList()
+l.insert(1)
+l.insert(15)
+l.insert(14)
+l.insert(11)
+l.transversal()
+l.remove(11)
+l.transversal()
+l.insert(17)
+l.insert(6)
+l.transversal()
+l.remove(1)
+l.transversal()
+l.remove(17)
+l.transversal()
